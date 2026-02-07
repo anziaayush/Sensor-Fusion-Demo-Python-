@@ -1,0 +1,12 @@
+# 1. Create folders (they can be empty)
+mkdir -p sensor-fusion-demo/data sensor-fusion-demo/results
+
+# 2. Add your code files (main.py, requirements.txt, README.md)
+
+# 3. Run once
+pip install -r requirements.txt
+python main.py
+
+# 4. Check results
+ls data/          # → sensor_data.csv
+ls results/       # → fusion_results.png
